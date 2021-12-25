@@ -25,7 +25,7 @@ jobs:
     #   run: php -v
 
     - name: verify composer.json and composer.lock
-      run: composer verify
+      run: composer validate
 
   update:
     needs: provision
