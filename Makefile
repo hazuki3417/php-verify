@@ -1,10 +1,13 @@
 
 
-composer-install:
+install-packages:
 	docker-compose run --rm composer
 
-coverage:
-	docker-compose run --rm php-coverage
+generate-coverage:
+	docker-compose run --rm generate-coverage
+
+generate-api-reference:
+	docker-compose run --rm generate-api-reference
 
 test:
 	make test-php-latest && \

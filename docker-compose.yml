@@ -8,13 +8,21 @@ services:
     tty: true
     command: composer install
 
-  php-coverage:
+  generate-coverage:
     image: php:alpine
     working_dir: /var/www/html
     volumes:
       - ./:/var/www/html
     tty: true
     command: phpdbg -qrr vendor/bin/phpunit -c phpunit.coverage.xml
+
+  generate-api-reference:
+    image: php:alpine
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    tty: true
+    command: php vendor/bin/phpdoc
 
   php-latest:
     image: php:alpine
