@@ -1,0 +1,4 @@
+vendor
+docs
+.cache
+.php_cs.cache

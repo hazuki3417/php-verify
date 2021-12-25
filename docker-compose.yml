@@ -1,0 +1,58 @@
+version: "3.0"
+
+services:
+  composer:
+    image: composer:latest
+    volumes:
+      - ./:/app
+    tty: true
+    command: composer install
+
+  php-coverage:
+    image: php:alpine
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    tty: true
+    command: phpdbg -qrr vendor/bin/phpunit -c phpunit.coverage.xml
+
+  php-latest:
+    image: php:alpine
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    tty: true
+    command: php vendor/bin/phpunit
+
+  php-8.0:
+    image: php:8.0-alpine
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    tty: true
+    command: php vendor/bin/phpunit
+
+  php-7.4:
+    image: php:7.4-alpine
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    tty: true
+    command: php vendor/bin/phpunit
+
+  php-7.3:
+    image: php:7.3-alpine
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    tty: true
+    command: php vendor/bin/phpunit
+
+  php-7.2:
+    image: php:7.2-alpine
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    tty: true
+    command: php vendor/bin/phpunit
+

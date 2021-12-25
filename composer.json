@@ -1,0 +1,37 @@
+{
+    "name": "hazuki3417/php-verify",
+    "description": "",
+    "type": "library",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "takashi kudo",
+            "email": "hazuki3417@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Selen\\Verify\\": "src/Verify"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        },
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "php": ">=7.4",
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "phpunit/phpunit": "^9.5",
+        "phpdocumentor/phpdocumentor": "^3.0",
+        "mockery/mockery": "^1.4"
+    }
+}
