@@ -699,16 +699,16 @@
         },
         {
             "name": "jawira/plantuml",
-            "version": "v1.2022.3",
+            "version": "v1.2022.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jawira/plantuml.git",
-                "reference": "668130d61260bf1eae3e564db8829f90f717a0c5"
+                "reference": "55f62c63f97b464fcc7839401726949c39aa78bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jawira/plantuml/zipball/668130d61260bf1eae3e564db8829f90f717a0c5",
-                "reference": "668130d61260bf1eae3e564db8829f90f717a0c5",
+                "url": "https://api.github.com/repos/jawira/plantuml/zipball/55f62c63f97b464fcc7839401726949c39aa78bd",
+                "reference": "55f62c63f97b464fcc7839401726949c39aa78bd",
                 "shasum": ""
             },
             "bin": [
@@ -734,9 +734,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jawira/plantuml/issues",
-                "source": "https://github.com/jawira/plantuml/tree/v1.2022.3"
+                "source": "https://github.com/jawira/plantuml/tree/v1.2022.4"
             },
-            "time": "2022-04-01T13:00:51+00:00"
+            "time": "2022-04-15T13:00:51+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -5068,16 +5068,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.18.5",
+            "version": "v1.18.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "10e438f53a972439675dc720706f0cd5c0ed94f1"
+                "reference": "130851b90c1ea615ac5be6fce827971f4f55afbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/10e438f53a972439675dc720706f0cd5c0ed94f1",
-                "reference": "10e438f53a972439675dc720706f0cd5c0ed94f1",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/130851b90c1ea615ac5be6fce827971f4f55afbf",
+                "reference": "130851b90c1ea615ac5be6fce827971f4f55afbf",
                 "shasum": ""
             },
             "require": {
@@ -5113,7 +5113,7 @@
             "description": "Composer plugin for Symfony",
             "support": {
                 "issues": "https://github.com/symfony/flex/issues",
-                "source": "https://github.com/symfony/flex/tree/v1.18.5"
+                "source": "https://github.com/symfony/flex/tree/v1.18.6"
             },
             "funding": [
                 {
@@ -5129,7 +5129,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-16T17:26:46+00:00"
+            "time": "2022-04-15T08:20:34+00:00"
         },
         {
             "name": "symfony/framework-bundle",
